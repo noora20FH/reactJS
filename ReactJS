@@ -1,0 +1,13 @@
+React is a JavaScript Library
+NOT a framework
+FOCUS on UI
+
+
+CREATE THE PROJECT
+npx create-react-app my-first-app
+
+GO TO FOLDER PROJECT DIRECTORY
+cd my-first-app
+
+START THE PROJECT
+npm start  

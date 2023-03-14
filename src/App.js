@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
+//you can define a component once, and then use it in as many places and as many times as you like.
 
 export default App;
