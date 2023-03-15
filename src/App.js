@@ -10,12 +10,16 @@
 // Exports the root App component as a default export.
 import './App.css';
 // import Gallery from './Gallery.js';
-import { Profile } from './Gallery.js';
+// import { Profile } from './Gallery.js';
+import Hello from './components/Hello';
+import TodoList from './components/Todo';
 
 export default function App() {
   return (
     // <Gallery />
-    <Profile />
+    // <Profile />
+    // <Hello />
+    <TodoList />
   );
 }
 
