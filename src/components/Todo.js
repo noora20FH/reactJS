@@ -4,7 +4,6 @@
 // JSX requires tags to be explicitly closed: self-closing tags like <img> must become <img />, and wrapping tags like <li>oranges must be written as <li>oranges</li>.
 // 3. camelCase all most of the things! 
 
-
 export default function TodoList(){
     return (
         <div className="todo-list">
@@ -21,6 +20,8 @@ export default function TodoList(){
         </div>
     );
 }
+
+
 
 //Why do multiple JSX tags need to be wrapped?
 // JSX looks like HTML, but under the hood it is transformed into plain JavaScript objects. You can’t return two objects from a function without wrapping them into an array. This explains why you also can’t return two JSX tags without wrapping them into another tag or a Fragment.

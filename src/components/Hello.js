@@ -31,6 +31,10 @@ const Hello=()=>{
     //second aparam: object of key-values pairs that will be applied to the elements
     return React.createElement(
         'div', 
+        //className = the combination of JS + HTML
+        
+    //for HTML. id only allowed 1 aaper in a page. while class can appear many times in a page
+    //class still used for defining a class, while for class name used className for the html to JSX
         {id: 'hello', className: 'dummyClass'},
         React.createElement('h1', null,'Hello Noora')
     )
